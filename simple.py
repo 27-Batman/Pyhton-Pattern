@@ -1,6 +1,8 @@
 # Simple Number Triangle
 
-for i in range (1, 6):
+rows = 6
+
+for i in range (1, rows):
     print(str(i) * i)
     
 # Output:

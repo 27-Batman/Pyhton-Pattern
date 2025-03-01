@@ -1,11 +1,15 @@
 # Inverted Pyramid
 
-for i in range(5, 0, -1):
-    print(str(i) * i)
+rows = 5
+
+for i in range (1, rows + 1):
+    for j in range(rows - i + 1):
+        print(i, end="")
+    print()    
     
 #Output
-# 55555
-# 4444
+# 11111
+# 2222
 # 333
-# 22
-# 1
+# 44
+# 5
